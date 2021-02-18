@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: Poppins;
+  margin: 0;
+}
+
+body {
+  background-color: #edc8b8;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 0.6em;
+  width: 85vw;
+}
+
+h1 {
+  text-align: center;
+  justify-self: center;
+}
+
+.heading-span1 {
+  color: #ab3b61;
+}
+
+.heading-span2 {
+  color: #123d6a;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  justify-self: flex-end;
+  color: #123d6a;
+  font-weight: 600;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  padding: 0.6em;
+  color: #123d6a;
+}
+
+li a:hover {
+  color: #bbb2b5;
+}
+
+article {
+  background-color: #123d6a;
+  margin: 0 auto;
+  margin-top: 3em;
+  width: 85vw;
+  border-radius: 16px;
+  padding: 0.8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+article h2 {
+  padding: 0.7em;
+}
+
+/* Om mig */
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+}
+
+.wrapper h2 {
+  padding-bottom: 1.5em;
+}
+
+.card__list {
+  color: white;
+  list-style: none;
+}
+
+.card img {
+  width: 27%;
+  height: auto;
+  border-radius: 16px;
+}
+
+@media screen and (max-width: 700px) {
+  .card img {
+    width: 40%;
+  }
+
+  body {
+    font-size: 0.8em;
+  }
+}
